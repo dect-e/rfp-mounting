@@ -7,7 +7,7 @@ virtually identical holes.
 
 The dxf file can be directly used as input for a laser cutter.
 
-We have verified the correct placement of the mounting holes (**note: this revision still has a small offset; this will be corrected later!**)
+We have verified the correct placement of the mounting holes
 with a proof-of-concept cut on 5 mm wood composite board.
 
 For real-world usage, we plan to use acrylic glass to make the plate
@@ -41,4 +41,19 @@ Suggested material
 - (optionally:) 3 × nails, 4 mm or 5 mm head diameter, min. 4 mm length (to
   latch the RFP in place)
 
-![Mounting plate design for RFP43](./rfp43-mounting-plate.svg)
+Files
+-----
+
+- The svg file serves as the source of information; it contains separate
+  layers, so the RFP's holes, ziptie slots, and hanging holes can all be
+  hidden/shown individually.
+- The dxf file has been exported from the svg and is ready to be laser-cut.
+- The "dimension" files are identical to the main dxf, but contain measurement
+  markings (measured on the drawing, which is in turn based on actual physical
+  measurements). Do not use it for laser cutting, unless you want an art piece
+  with lasered-in measurement numbers. ;)
+
+All measurements are in millimeters, usually with a resolution and accuracy of
+approx. 0.1 mm.
+
+![Mounting plate design for RFP43](./rfp43-mounting-plate-dimensions.png)
