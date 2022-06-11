@@ -12,3 +12,5 @@ forwards/backwards.
 
 The screw should protrude approx. 4 mm (not including the head) from your
 mounting plate.
+
+![Drawing of mounting hole dimensions](./mitel-rfp43-mounting-holes.png)
